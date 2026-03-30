@@ -1,0 +1,119 @@
+/* Reset & Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+/* Section Fullscreen */
+section {
+    min-height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.hero-section h1 {
+    font-size: 48px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+}
+
+/* ================= ABOUT SECTION ================= */
+
+.about-section {
+    background-color: #112d4e;
+}
+
+.about-section p {
+    line-height: 1.8;
+}
+
+.progress {
+    height: 10px;
+    background-color: #1b3b6f;
+}
+
+.progress-bar {
+    background-color: #3a86ff;
+}
+
+/* ================= CERTIFICATES SECTION ================= */
+
+.certificates-section {
+    background-color: #0a1f33;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    color: #000;
+    padding: 20px;
+}
+
+.certificates-section .card {
+    overflow: hidden;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background-color: #081524;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(6px);
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #3a86ff !important;
+}
